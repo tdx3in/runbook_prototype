@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://tdx3in.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/runbook_prototype/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tdx3in', // GitHub org/user name.
+  projectName: 'runbook_prototype', // Repo name.
 
   onBrokenLinks: 'throw',
 
@@ -54,7 +54,7 @@ const config = {
           // <REPO> with your GitHub owner and repository name, and adjust the
           // branch if you use something other than `main`.
           // Example: 'https://github.com/my-org/runbook-docs/edit/main/'
-          editUrl: 'https://github.com/<OWNER>/<REPO>/edit/main/',
+          editUrl: 'https://github.com/tdx3in/runbook_prototype/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -66,7 +66,7 @@ const config = {
           // in-browser editor. Users without write access will be offered to
           // fork the repo and submit a PR automatically by GitHub.
           // Replace <OWNER> and <REPO> below.
-          editUrl: 'https://github.com/<OWNER>/<REPO>/edit/main/blog/',
+          editUrl: 'https://github.com/tdx3in/runbook_prototype/edit/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -109,7 +109,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tdx3in/runbook_prototype',
             label: 'GitHub',
             position: 'right',
           },
@@ -153,7 +153,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/tdx3in/runbook_prototype',
               },
             ],
           },
